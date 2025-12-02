@@ -9,5 +9,29 @@ html {
 }
 
 body {
-  padding: 8px;
+  padding: 10px;
+}
+
+.topnav {
+  overflow: hidden;
+  background-color: #222222;
+}
+
+.topnav a {
+  float: left;
+  color: #f3f3f3;
+  text-align: center;
+  padding: 14px 17px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #eeeeee;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #3357d6;
+  color: white;
 }
