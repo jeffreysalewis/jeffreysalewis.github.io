@@ -2,14 +2,20 @@
   color: white;
   font-family: Verdana, sans-serif;
   font-style: bold;
+  box-sizing: border-box;
 }
 
 html {
   background-color: #222222;
 }
 
+body {
+  margin: 0px;
+}
+
 main {
   padding: 10px;
+  padding-top: 20px;
 }
 
 .topnav {
